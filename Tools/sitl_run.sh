@@ -209,6 +209,7 @@ elif [ "$program" == "jsbsim" ] && [ -z "$no_sim" ]; then
 			--aircraft=$JSBSIM_AIRCRAFT_MODEL \
 			--airport=${world} \
 			--disable-hud \
+			--timeofday=noon \
 			--disable-ai-models &> /dev/null &
 		FGFS_PID=$!
 	fi

@@ -166,6 +166,7 @@ set(models
 	px4vision
 	r1_rover
 	rover
+	sbxc
 	shell
 	solo
 	standard_vtol
@@ -260,6 +261,7 @@ endforeach()
 set(models_jsbsim
 	none
 	rascal
+	sbxc
 	quadrotor_x
 	hexarotor_x
 	malolo
